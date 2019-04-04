@@ -12,6 +12,8 @@ Transpose Dictionary
 
 Simple python package to transpose python dictionaries.
 
+Multilevel dictionaries can be viewed as projections of sparse n-dimensional matrices: as such, you can transpose them on any of their axes. This package offers a simple function to do that
+
 Installing Transpose_Dict
 ------------------------
 
@@ -24,7 +26,7 @@ Basic usage example
 
 .. code:: python
 
-    from transpose_dict import TD
+    from transpose_dict import TD # or from transpose_dict import transpose_dict
     
     test = {
         "a":{
