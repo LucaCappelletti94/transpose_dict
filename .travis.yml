@@ -13,6 +13,8 @@ addons:
 language: python
 python:
 - '3.6'
+before_install:
+- pip install pytest --upgrade -q
 install:
 - pip install .[test]
 before_script:
