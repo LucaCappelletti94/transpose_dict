@@ -75,5 +75,5 @@ The software is released under the MIT license.
    :target: https://codeclimate.com/github/LucaCappelletti94/transpose_dict/maintainability
    :alt: Maintainability
 
-.. |pip| image:: https://badge.fury.io/py/transpose_dict.svg
-    :target: https://badge.fury.io/py/transpose_dict
+.. |pip| image:: https://badge.fury.io/py/transpose-dict.svg
+    :target: https://badge.fury.io/py/transpose-dict
