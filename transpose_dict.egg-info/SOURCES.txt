@@ -1,0 +1,10 @@
+README.rst
+setup.py
+transpose_dict/__init__.py
+transpose_dict/__version__.py
+transpose_dict/transpose_dict.py
+transpose_dict.egg-info/PKG-INFO
+transpose_dict.egg-info/SOURCES.txt
+transpose_dict.egg-info/dependency_links.txt
+transpose_dict.egg-info/requires.txt
+transpose_dict.egg-info/top_level.txt

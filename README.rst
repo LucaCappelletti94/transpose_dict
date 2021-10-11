@@ -6,7 +6,7 @@
 
 
 Transpose Dictionary
-====================
+======================
 
 |travis| |sonar_quality| |sonar_maintainability| |sonar_coverage| |code_climate_maintainability| |pip|
 
@@ -17,7 +17,7 @@ Multilevel dictionaries can be viewed as projections of sparse n-dimensional mat
 This package offers a simple function to do that.
 
 Installing the transpose dict package
-------------------------
+-------------------------------------------
 As usual, just use pip as follows:
 
 .. code:: shell
