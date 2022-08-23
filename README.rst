@@ -7,8 +7,7 @@
 
 Transpose Dictionary
 ======================
-
-|travis| |sonar_quality| |sonar_maintainability| |sonar_coverage| |code_climate_maintainability| |pip|
+|pip| |downloads|
 
 Simple python package to transpose python dictionaries.
 
@@ -60,23 +59,9 @@ License
 --------------
 The software is released under the MIT license.
 
-.. |preview| image:: https://github.com/LucaCappelletti94/transpose_dict/blob/master/preview.png?raw=true
-
-.. |travis| image:: https://travis-ci.org/LucaCappelletti94/transpose_dict.png
-   :target: https://travis-ci.org/LucaCappelletti94/transpose_dict
-
-.. |sonar_quality| image:: https://sonarcloud.io/api/project_badges/measure?project=transpose_dict.lucacappelletti&metric=alert_status
-    :target: https://sonarcloud.io/dashboard/index/transpose_dict.lucacappelletti
-
-.. |sonar_maintainability| image:: https://sonarcloud.io/api/project_badges/measure?project=transpose_dict.lucacappelletti&metric=sqale_rating
-    :target: https://sonarcloud.io/dashboard/index/transpose_dict.lucacappelletti
-
-.. |sonar_coverage| image:: https://sonarcloud.io/api/project_badges/measure?project=transpose_dict.lucacappelletti&metric=coverage
-    :target: https://sonarcloud.io/dashboard/index/transpose_dict.lucacappelletti
-
-.. |code_climate_maintainability| image:: https://api.codeclimate.com/v1/badges/25fb7c6119e188dbd12c/maintainability
-   :target: https://codeclimate.com/github/LucaCappelletti94/transpose_dict/maintainability
-   :alt: Maintainability
-
 .. |pip| image:: https://badge.fury.io/py/transpose-dict.svg
     :target: https://badge.fury.io/py/transpose-dict
+
+.. |downloads| image:: https://pepy.tech/badge/deflate-dict
+    :target: https://pepy.tech/badge/deflate-dict
+    :alt: Pypi total project downloads 
