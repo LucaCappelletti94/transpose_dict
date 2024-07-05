@@ -67,5 +67,5 @@ The software is released under the MIT license.
     :alt: Pypi total project downloads 
 
 .. |github| image:: https://github.com/LucaCappelletti94/transpose-dict/actions/workflows/python.yml/badge.svg
-    :target: https://github.com/LucaCappelletti94/dict_hash/actions/
+    :target: https://github.com/LucaCappelletti94/transpose-dict/actions/
     :alt: Github Actions
