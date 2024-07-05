@@ -1,8 +1,6 @@
+"""Setup script for the package."""
 import os
 import re
-import sys
-# To use a consistent encoding
-from codecs import open
 from os import path
 
 from setuptools import find_packages, setup
@@ -15,7 +13,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 
 def read(*parts):
-    with open(os.path.join(here, *parts), 'r') as fp:
+    with open(os.path.join(here, *parts), 'r', encoding="utf8") as fp:
         return fp.read()
 
 
@@ -30,7 +28,7 @@ def find_version(*file_paths):
 
 __version__ = find_version("transpose_dict", "__version__.py")
 
-test_deps = ['pytest', 'pytest-cov', 'coveralls']
+test_deps = ['pytest', 'pytest-cov']
 
 extras = {
     'test': test_deps,

@@ -7,7 +7,7 @@
 
 Transpose Dictionary
 ======================
-|pip| |downloads|
+|pip| |downloads| |github|
 
 Simple python package to transpose python dictionaries.
 
@@ -62,6 +62,10 @@ The software is released under the MIT license.
 .. |pip| image:: https://badge.fury.io/py/transpose-dict.svg
     :target: https://badge.fury.io/py/transpose-dict
 
-.. |downloads| image:: https://pepy.tech/badge/deflate-dict
-    :target: https://pepy.tech/badge/deflate-dict
+.. |downloads| image:: https://pepy.tech/badge/transpose-dict
+    :target: https://pepy.tech/badge/transpose-dict
     :alt: Pypi total project downloads 
+
+.. |github| image:: https://github.com/LucaCappelletti94/transpose-dict/actions/workflows/python.yml/badge.svg
+    :target: https://github.com/LucaCappelletti94/dict_hash/actions/
+    :alt: Github Actions
