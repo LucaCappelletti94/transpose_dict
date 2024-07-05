@@ -24,19 +24,19 @@ Basic usage example
     from transpose_dict import transpose_dict # or from transpose_dict import TD, for brevity
     
     your_dictionary = {
-        "a":{
-            "0":{
-                "I":[1,2,3],
-                "II":[4,5,6]
+        "a" : {
+            "0" : {
+                "I" : [1, 2, 3],
+                "II" : [4, 5, 6]
             }
         },
-        "b":{
-            "0":{
-                "I":[8,9,10],
-                "II":[467,23,23]
+        "b" : {
+            "0" : {
+                "I" : [8, 9, 10],
+                "II" : [467, 23, 23]
             },
-            "1":{
-                "III":[6,7,9]
+            "1" : {
+                "III" : [6, 7, 9]
             }
         }
     }
