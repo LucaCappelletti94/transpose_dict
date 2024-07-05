@@ -1,19 +1,12 @@
-.. role:: py(code)
-   :language: python
-
-.. role:: json(code)
-   :language: json
-
-
 Transpose Dictionary
 ======================
 |pip| |downloads| |github|
 
-Simple python package to transpose python dictionaries.
+Python package to transpose python dictionaries.
 
-Multilevel dictionaries can be viewed as projections of sparse n-dimensional matrices: as such, you can transpose them on any of their axes. 
+Multilevel dictionaries can be viewed as projections of sparse n-dimensional matrices: as such, you can transpose them on any of their axes.
 
-This package offers a simple function to do that.
+The package provides a function that allows you to transpose a dictionary on any of its axes.
 
 Installing the transpose dict package
 -------------------------------------------
@@ -28,9 +21,9 @@ Basic usage example
 
 .. code:: python
 
-    from transpose_dict import TD # or from transpose_dict import transpose_dict
+    from transpose_dict import transpose_dict # or from transpose_dict import TD, for brevity
     
-    test = {
+    your_dictionary = {
         "a":{
             "0":{
                 "I":[1,2,3],
@@ -48,11 +41,11 @@ Basic usage example
         }
     }
 
-    TD(test, 0) # The given dictionary does not change
+    transpose_dict(your_dictionary, axis=0) # The given dictionary does not change
     #> {"b": {"0": {"I": [8, 9, 10], "II": [467, 23, 23]}, "1": {"III": [6, 7, 9]}}, "a": {"0": {"I": [1, 2, 3], "II": [4, 5, 6]}}}
-    TD(test, 1) # The new main axis is the one with ("0", "1")
+    transpose_dict(your_dictionary, axis=1) # The new main axis is the one with ("0", "1")
     #> {"0": {"a": {"I": [1, 2, 3], "II": [4, 5, 6]}, "b": {"I": [8, 9, 10], "II": [467, 23, 23]}}, "1": {"b": {"III": [6, 7, 9]}}}
-    TD(test, 2) # The new main axis is the one with ("I", "II", "III")
+    transpose_dict(your_dictionary, axis=2) # The new main axis is the one with ("I", "II", "III")
     #> {"I": {"a": {"0": [1, 2, 3]}, "b": {"0": [8, 9, 10]}}, "III": {"b": {"1": [6, 7, 9]}}, "II": {"a": {"0": [4, 5, 6]}, "b": {"0": [467, 23, 23]}}}
 
 License
