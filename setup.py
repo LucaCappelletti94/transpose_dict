@@ -42,7 +42,7 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version=__version__,
 
-    description='Small customizable multiprocessing multi-proxy crawler.',
+    description='Package to transpose dictionaries across any axes, just like n-dimensional matrices.',
     long_description=long_description,
 
     # The project's main homepage.

@@ -52,9 +52,9 @@ def axis_keys(dictionary: Dict, axis: int) -> Set[Any]:
     The set of keys at given axis
     """
     return (
-        set.union(*[axis_keys(value, axis - 1) for value in dictionary.values()])
-        if axis
-        else set(dictionary.keys())
+        set.union(*[set(axis_keys(value, axis - 1)) for value in dictionary.values()])
+        if axis != 0
+        else dictionary.keys()
     )
 
 
