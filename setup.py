@@ -87,5 +87,4 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     tests_require=test_deps,
     extras_require=extras,
-    install_requires=["support_developer>=1.0.2"]
 )
